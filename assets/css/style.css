@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards {
+    margin: 150px 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border: 2px solid #777;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 12px 0;
+}
+
+.card__img {
+    max-width: 145px;
+}
+
+.card__img img {
+    width: 100%;
+}
+
+.card__content {
+    padding: 10px;
+}
+
+.card__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card__phone {
+    font-size: 13px;
+    color: #555;
+    font-weight: 600;
+    margin: 7px 0;
+}
+
+.card__info {
+    font-size: 14px;
+}
+
+.card__announcement {
+    font-size: 12px;
+    color: #00f;
+}
